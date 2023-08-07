@@ -1,0 +1,53 @@
+
+body{
+ background-color: rgb(132, 132, 132); 
+}
+
+h1{
+  text-align: center;
+  font-size: 1.6;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: auto;
+  margin : 100px 0 55px 0;
+  text-transform: uppercase;
+  color: white;
+}
+
+h1:hover{
+  color: black;
+  transition: .9s;
+}
+    
+.img-area {
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+
+
+.single-img {
+ margin: 25px 25px 25px 25px; 
+} 
+
+img:hover{
+  opacity: 0.6;;
+  transition: .9s;
+  box-shadow: 10px 20px 20px rgb(46, 49, 47); 
+}
+
+a:link{
+  color:white;
+  font-size: larger;
+  text-decoration: none;
+  text-align: justify;
+  font-weight: bold;  
+  letter-spacing: 6px;
+  margin : 45px 0px 70px 0px;
+}
+
+a:hover{
+  transition: .9;
+  color:black; 
+}
